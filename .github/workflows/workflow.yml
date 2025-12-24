@@ -28,11 +28,3 @@ jobs:
         run: mvn test
         # The -B flag is for "batch mode" which is useful for CI environments.
         # The 'package' goal compiles the code, runs the tests, and packages the result into a JAR/WAR.
-
-      - name: Upload production artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: Fullstack
-          path: target/*.jar
-          # Optionally, set a retention period for the artifact
-          retention-days: 5
