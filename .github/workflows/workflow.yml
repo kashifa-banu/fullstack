@@ -32,7 +32,7 @@ jobs:
       - name: Upload production artifact
         uses: actions/upload-artifact@v4
         with:
-          name: your-application-name
+          name: Fullstack
           path: target/*.jar
           # Optionally, set a retention period for the artifact
           retention-days: 5
