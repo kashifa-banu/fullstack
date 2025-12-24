@@ -16,7 +16,7 @@ public class loginSteps {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("constructor");
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.myntra.com/");
+       // driver.get("https://www.myntra.com/");
     }
     @When("clicked on login")
     public void clicked_on_login() {
