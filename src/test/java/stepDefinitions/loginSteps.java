@@ -15,7 +15,7 @@ public class loginSteps {
     public void user_launch_myntra_site() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("constructor");
-        WebDriver driver = new ChromeDriver();
+       // WebDriver driver = new ChromeDriver();
        // driver.get("https://www.myntra.com/");
     }
     @When("clicked on login")
